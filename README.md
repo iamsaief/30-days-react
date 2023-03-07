@@ -85,7 +85,7 @@ This way, you can avoid repeating yourself and make your code more concise.
 
    ![Number Generator](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/day_6_hexadecimal_colors_exercise.png)
 
-   Solution: `./`
+   Solution: `./src/Exercises/HexColorGenerator.js`
 
 ## Exercises: Level 3
 
