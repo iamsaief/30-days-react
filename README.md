@@ -77,14 +77,20 @@ This way, you can avoid repeating yourself and make your code more concise.
 
 1. In the following design, evens are green, odds are yellow and prime numbers are red. Build the following colors using React component
 
-![Number Generator](../images/day_6_number_generater_exercise.png)
+   ![Number Generator](../images/day_6_number_generater_exercise.png)
+
+   Solution: `./src/Exercises/NumberGenerator.js`
 
 2. Create the following hexadecimal colors using React component
 
-![Number Generator](../images/day_6_hexadecimal_colors_exercise.png)
+   ![Number Generator](../images/day_6_hexadecimal_colors_exercise.png)
+
+   Solution: `./`
 
 ## Exercises: Level 3
 
-1.Make the following bar group using the given [data](../06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/ten_most_highest_populations.js)
+1. Make the following bar group using the given [data](../06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/ten_most_highest_populations.js)
 
-![Ten most highest populations](../images/day_6_ten_highest_populations_exercise.png)
+   ![Ten most highest populations](../images/day_6_ten_highest_populations_exercise.png)
+
+   Solution: `./`

@@ -5,6 +5,9 @@ import { randomUUID } from './helper';
 
 // Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/scss/index.scss';
+
+import NumberGenerator from './Exercises/NumberGenerator';
 
 const numbers = [1, 2, 3, 4, 5];
 
@@ -66,7 +69,7 @@ const Hr = () => <hr class=" border-dark-subtle opacity-25"></hr>;
 const App = () => {
 	return (
 		<div className="container">
-			<div>
+			{/* <div>
 				<h1>Numbers List</h1>
 				<ul>
 					<Numbers numbers={numbers} />
@@ -82,7 +85,16 @@ const App = () => {
 				<h1>Country List</h1>
 				<Countries countries={countries} />
 			</div>
-			<Hr />
+			<Hr /> */}
+
+			{/* Number Generator */}
+			<div className="section-wrapper py-4">
+				<div className="section-title text-center">
+					<h1>30 Days of React</h1>
+					<p className="mt-3 fw-light fs-2">Number Generator</p>
+				</div>
+				<NumberGenerator number={32} />
+			</div>
 		</div>
 	);
 };
