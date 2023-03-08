@@ -2,7 +2,7 @@
   <h1> Day 6 - 30 Days Of React: Mapping Arrays </h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
 
-[<< Day 5](src/day-5/README.md) | [Day 7 >>](src/day-7/README.md)
+[<< Day 5](../day-5/README.md) | [Day 7 >>](../day-7/README.md)
 
 </div>
 

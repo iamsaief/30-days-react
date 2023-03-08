@@ -1,7 +1,7 @@
 <div align="center">
   <h1> Day 5 - 30 Days Of React: Props </h1>
    
-   [<< Day 4](src/day-4/README.md) | [Day 6 >>](src/day-6/README.md)
+   [<< Day 4](../day-4/README.md) | [Day 6 >>](../day-6/README.md)
 </div>
 
 - [Props](#props)
