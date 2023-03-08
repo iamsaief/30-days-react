@@ -2,7 +2,7 @@
   <h1> Day 7 - 30 Days Of React: Class Components </h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
 
-[<< Day 6](src/day-6/README.md) | [Day 8 >>](src/day-8/README.md)
+[<< Day 6](../day-6/README.md) | [Day 8 >>](../day-8/README.md)
 
 </div>
 
