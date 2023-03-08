@@ -1,13 +1,16 @@
 <div align="center">
   <h1> Day 6 - 30 Days Of React: Mapping Arrays </h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+
+[<< Day 5](src/day-5/README.md) | [Day 7 >>](src/day-7/README.md)
+
 </div>
 
 - [Mapping arrays](#mapping-arrays)
 - [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
+	- [Exercises: Level 1](#exercises-level-1)
+	- [Exercises: Level 2](#exercises-level-2)
+	- [Exercises: Level 3](#exercises-level-3)
 
 # Mapping arrays
 
@@ -272,3 +275,9 @@ This way, you can avoid repeating yourself and make your code more concise.
 
    export default WorldPopulation;
    ```
+
+<div align="right">
+
+[Back to top ⬆️](#top)
+
+</div>

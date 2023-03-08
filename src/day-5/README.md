@@ -1,3 +1,28 @@
+<div align="center">
+  <h1> Day 5 - 30 Days Of React: Props </h1>
+   
+   [<< Day 4](src/day-4/README.md) | [Day 6 >>](src/day-6/README.md)
+</div>
+
+- [Props](#props)
+  - [Props in Functional Component](#props-in-functional-component)
+  - [What is props?](#what-is-props)
+  - [Props object](#props-object)
+    - [Different data type props](#different-data-type-props)
+    - [String props type](#string-props-type)
+    - [Number props type](#number-props-type)
+    - [Boolean props type](#boolean-props-type)
+    - [Array props type](#array-props-type)
+    - [Object props type](#object-props-type)
+    - [Function prop types](#function-prop-types)
+  - [Destructuring props](#destructuring-props)
+  - [propTypes](#proptypes)
+  - [defaultProps](#defaultprops)
+- [Exercises: Components and Props](#exercises-components-and-props)
+  - [Exercises: Level 1](#exercises-level-1)
+  - [Exercises: Level 2](#exercises-level-2)
+  - [Exercises: Level 3](#exercises-level-3)
+
 # Exercises: Components and Props
 
 ## Exercises: Level 1
@@ -82,3 +107,9 @@ Solution: `src/day-5/exercises/RandomColors.js`
 
 ![User Card](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/user_card_design_jsx.png)
 Solution: `src/day-5/exercises/UserCardExercise.js`
+
+<div align="right">
+
+[Back to top ⬆️](#top)
+
+</div>
