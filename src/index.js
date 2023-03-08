@@ -10,7 +10,7 @@ const App = () => {
 	return (
 		<div className="app">
 			{/* <Day5 /> */}
-			<Day6 />
+			{/* <Day6 /> */}
 		</div>
 	);
 };
