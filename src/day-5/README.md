@@ -63,18 +63,22 @@
 
 1. Create a functional component and display the following images
 
-![Front end](../images/frontend_technologies.png)
+   ![Front end](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/frontend_technologies.png)
+   Solution `src/day-5/exercises/DisplayImages.js`
 
-2. Use functional component to create the following design
+1. Use functional component to create the following design
 
-![News Letter](../images/news_letter_design.png)
+   ![News Letter](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/news_letter_design.png)
+   Solution `src/day-5/exercises/SubscriptionForm.js`
 
 ## Exercises: Level 3
 
 1.  Use the given hexadecimal color generator in the example to create these random colors. If you don't know how to generate the hexadecimal color you can use [dummy data generator](https://www.30daysofreact.com/dummy-data)
 
-![Hexadecimal colors](../images/hexadecimal_color_exercise.png)
+![Hexadecimal colors](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/hexadecimal_color_exercise.png)
+Solution: `src/day-5/exercises/RandomColors.js`
 
 2. Use functional component to design the following user card.
 
-![User Card](../images/user_card_design_jsx.png)
+   ![User Card](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/user_card_design_jsx.png)
+   Solution: `src/day-5/exercises/UserCardExercise.js`

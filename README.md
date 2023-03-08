@@ -4,7 +4,7 @@
 
 | # Day |                  Topics                   |
 | ----- | :---------------------------------------: |
-| 5     |        [Props](src/day-5/notes.md)        |
+| 5     |       [Props](src/day-5/README.md)        |
 | 6     | [List, Map and Keys](src/day-6/README.md) |
 | 7     |                                           |
 | 8     |                                           |
