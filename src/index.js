@@ -71,7 +71,7 @@ const Hr = () => <hr class=" border-dark-subtle opacity-25"></hr>;
 const App = () => {
 	return (
 		<div className="container">
-			{/* <div>
+			<div>
 				<h1>Numbers List</h1>
 				<ul>
 					<Numbers numbers={numbers} />
@@ -87,7 +87,7 @@ const App = () => {
 				<h1>Country List</h1>
 				<Countries countries={countries} />
 			</div>
-			<Hr /> */}
+			<Hr />
 
 			{/* Exercises Solution */}
 			{/* Even,odd, prime Number Generator */}

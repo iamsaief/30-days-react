@@ -25,7 +25,7 @@ const randomHexColors = (total = 5) => {
 // Section Header Component
 const SectionTitle = ({ heading, subHeading, text = '' }) => (
 	<div className="section-title text-center">
-		<h1>{heading}</h1>
+		<h1 className="mono-h1">{heading}</h1>
 		<p className="mt-3 fw-light fs-2">{subHeading}</p>
 	</div>
 );

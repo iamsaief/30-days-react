@@ -9,7 +9,7 @@ const worldPopulation = allCountries.map((country) => country.population).reduce
 // Section Header Component
 const SectionTitle = ({ heading, subHeading, text = '' }) => (
 	<div className="section-title text-center">
-		<div className="display-3 fw-medium">{heading}</div>
+		<h1 className="display-3 fw-medium">{heading}</h1>
 		<p className="m-0 mt-2 fw-light display-5">{subHeading}</p>
 		<p className="m-0 mt-1 fw-light">{text}</p>
 	</div>
