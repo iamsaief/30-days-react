@@ -1,5 +1,6 @@
 import React from 'react';
 import { randomUUID } from '../helper';
+import './NumberGenerator.scss';
 
 /**
  * A simple Javascript program to check Prime number, using recursion

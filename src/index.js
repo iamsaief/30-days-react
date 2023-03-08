@@ -9,6 +9,7 @@ import '../src/scss/index.scss';
 
 import NumberGenerator from './Exercises/NumberGenerator';
 import HexColorGenerator from './Exercises/HexColorGenerator';
+import WorldPopulation from './Exercises/WorldPopulation';
 
 const numbers = [1, 2, 3, 4, 5];
 
@@ -98,13 +99,16 @@ const App = () => {
 			</div> */}
 
 			{/* Hexadecimal colors Generator */}
-			<div className="section-wrapper py-4">
+			{/* <div className="section-wrapper py-4">
 				<div className="section-title text-center">
 					<h1>30 Days of React</h1>
 					<p className="mt-3 fw-light fs-2">Hexadecimal colors</p>
 				</div>
 				<HexColorGenerator totalHex={32} />
-			</div>
+			</div> */}
+
+			{/* Top ten countries population graph */}
+			<WorldPopulation />
 		</div>
 	);
 };
