@@ -93,4 +93,4 @@ This way, you can avoid repeating yourself and make your code more concise.
 
    ![Ten most highest populations](https://raw.githubusercontent.com/Asabeneh/30-Days-Of-React/master/images/day_6_ten_highest_populations_exercise.png)
 
-   Solution: `./`
+   Solution: `./src/Exercises/WorldPopulation.js`
