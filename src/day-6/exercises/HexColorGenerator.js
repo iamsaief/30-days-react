@@ -1,5 +1,5 @@
 import React from 'react';
-import { randomUUID } from '../helper';
+import { randomUUID } from '../../helper';
 
 /**
  * A function generate a number of hexadecimal codes and returns a array.

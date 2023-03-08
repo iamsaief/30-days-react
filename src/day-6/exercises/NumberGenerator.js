@@ -1,5 +1,5 @@
 import React from 'react';
-import { randomUUID } from '../helper';
+import { randomUUID } from '../../helper';
 import './NumberGenerator.scss';
 
 /**
