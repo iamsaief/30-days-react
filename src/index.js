@@ -9,7 +9,7 @@ import Day6 from './day-6';
 const App = () => {
 	return (
 		<div className="app">
-			<Day5 />
+			{/* <Day5 /> */}
 			<Day6 />
 		</div>
 	);
