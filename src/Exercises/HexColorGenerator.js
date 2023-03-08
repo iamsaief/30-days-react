@@ -22,6 +22,15 @@ const randomHexColors = (total = 5) => {
 	return hexArray;
 };
 
+// Section Header Component
+const SectionTitle = ({ heading, subHeading, text = '' }) => (
+	<div className="section-title text-center">
+		<h1>{heading}</h1>
+		<p className="mt-3 fw-light fs-2">{subHeading}</p>
+	</div>
+);
+
+// HexColorGenerator Component (Main)
 const HexColorGenerator = ({ totalHex }) => {
 	const coloredBox = randomHexColors(totalHex).map((hex, index) => (
 		<div
@@ -33,7 +42,12 @@ const HexColorGenerator = ({ totalHex }) => {
 		</div>
 	));
 
-	return <div className="pt-2 d-grid colored-box-wrapper">{coloredBox}</div>;
+	return (
+		<div className="section-wrapper py-4">
+			<SectionTitle heading="30 Days of React" subHeading="Hexadecimal colors" />
+			<div className="pt-2 d-grid colored-box-wrapper">{coloredBox}</div>
+		</div>
+	);
 };
 
 export default HexColorGenerator;

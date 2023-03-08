@@ -89,23 +89,14 @@ const App = () => {
 			</div>
 			<Hr /> */}
 
+			{/* Exercises Solution */}
 			{/* Even,odd, prime Number Generator */}
-			{/* <div className="section-wrapper py-4">
-				<div className="section-title text-center">
-					<h1>30 Days of React</h1>
-					<p className="mt-3 fw-light fs-2">Number Generator</p>
-				</div>
-				<NumberGenerator number={32} />
-			</div> */}
+			<NumberGenerator number={32} />
+			<Hr />
 
 			{/* Hexadecimal colors Generator */}
-			{/* <div className="section-wrapper py-4">
-				<div className="section-title text-center">
-					<h1>30 Days of React</h1>
-					<p className="mt-3 fw-light fs-2">Hexadecimal colors</p>
-				</div>
-				<HexColorGenerator totalHex={32} />
-			</div> */}
+			<HexColorGenerator totalHex={32} />
+			<Hr />
 
 			{/* Top ten countries population graph */}
 			<WorldPopulation />
