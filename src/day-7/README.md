@@ -210,9 +210,16 @@ ReactDOM.render(<Header />, rootElement);
 
    The main difference between functional React components and class based React components is the syntax. A functional component is a plain JavaScript function that accepts props as an argument and returns a React element. A class component is a JavaScript class that extends React.Component and has a render method that returns a React element.
 
-   Another difference is how they handle state and lifecycle methods. Class components can use `this.state` and `this.setState` to manage their own state, as well as `componentDidMount`, `componentDidUpdate`, `componentWillUnmount` etc. to perform side effects or cleanup³. Functional components do not have access to these features by default, but they can use hooks such as `useState`, `useEffect`, `useRef` etc. to achieve similar functionality³.
+   এদের main difference হচ্ছে syntax। একটা functional component হল একটা plain JavaScript function যেটা accepts করে props as an argument এবং returns করে একটা React element। আর class component হল JavaScript class যেটা extends করে React.Component কে এবং একটা render method থাকে যেটা return করে একটা React element.
+
+   Another difference is how they handle state and lifecycle methods. Class components can use `this.state` and `this.setState` to manage their own state, as well as `componentDidMount`, `componentDidUpdate`, `componentWillUnmount` etc. to perform side effects or cleanup. Functional components do not have access to these features by default, but they can use hooks such as `useState`, `useEffect`, `useRef` etc. to achieve similar functionality.
+
+   আর একটা ডিফারেন্স হচ্ছে কিভাবে তারা state and lifecycle methods কে হ্যান্ডেল করে। ক্লাস কম্পোনেন্টে নিজেরদের স্টেট ম্যানেজ করার জন্য ব্যাবহার করা হয় `this.state` ও `this.setState` এবং to perform side effects or cleanup এর জন্য `componentDidMount`, `componentDidUpdate`, `componentWillUnmount` ইত্যাদি lifecycle methods. ফাংশনাল কম্পোনেন্টে by default এই features গুলার এক্সেস নাই কিন্তু হুকস গুলো যেমন - `useState`, `useEffect`, `useRef` ইত্যাদি ব্যাবহার করে একই রকম ফাংশনালিটি পাওয়া যায়।
 
    Functional components are generally simpler, easier to read and test, and more reusable than class components. Class components are more verbose, but they may offer some performance optimizations or compatibility with older codebases.
+
+   ফাংশনাল কম্পোনেন্ট generally simpler, easier to read and test, and more reusable
+   ক্লাস কম্পোনেন্ট more verbose (প্রয়োজনের চেয়ে অনেক শব্দ ব্যাবহার করে লেখা হয়েছে এমন), but they may offer some performance optimizations or compatibility with older codebases
 
 5. When do we need to use class based components instead of functional components
 
