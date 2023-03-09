@@ -169,9 +169,11 @@ ReactDOM.render(<Header />, rootElement);
 
 2. What is inheritance and how do you make a child from a parent class?
 
-   Inheritance is a concept in object-oriented programming that allows a class to inherit properties and methods from another class²³. The class that inherits is called the child class or subclass, and the class that is inherited from is called the parent class or superclass².
+   Inheritance is a concept in object-oriented programming that allows a class to inherit properties and methods from another class. The class that inherits is called the child class or subclass, and the class that is inherited from is called the parent class or superclass.
 
-   To make a child class from a parent class in JavaScript, you can use the `extends` keyword after the child class name followed by the parent class name². For example:
+   ইনহেরিটেন্স হচ্ছে OOP এর একটি কনসেপ্ট যেটা আমাদেরকে এক ক্লাসের প্রোপার্টিস ও মেথড অন্য ক্লাসে উত্তরাধিকার করে পেতে সমর্থ হই।\*\*\*\*
+
+   To make a child class from a parent class in JavaScript, you can use the `extends` keyword after the child class name followed by the parent class name. For example:
 
    ```javascript
    class Parent {
@@ -198,7 +200,11 @@ ReactDOM.render(<Header />, rootElement);
 
 3. What is class based React component ?
 
-   A class based React component is a type of component that is defined as a regular ES6 class that extends the `Component` class of the React library. Class based components are also called stateful or container components because they can track state and lifecycle on a React component. Class based components have access to all the different phases of a React lifecycle method, such as `componentDidMount`, `componentDidUpdate`, or `componentWillUnmount`. Class based components also have to define a `render` method inside the class, which will be used by React to actually render the component.
+   A class based React component is a type of component that is defined as a regular ES6 class that extends the `Component` class of the React library. Class based components are also called stateful or container components because they can track state and lifecycle on a React component.
+
+   ক্লাস বেসড React component হচ্ছে একটা type of component যেটাতে regular ES6 class এর মত ডিফাইন করা হয় এবং এটা the React library'র `Component` class কে extends করে। ক্লাস ভিত্তিক কম্পোনেন্ট কে স্টেটফুল বা কন্টেইনার কম্পোনেন্টও বলা হয় কারণ তারা একটি কম্পোনেন্টের স্টেট ও জীবনচক্র ট্র্যাক করতে পারে।
+
+   Class based components have access to all the different phases of a React lifecycle method, such as `componentDidMount`, `componentDidUpdate`, or `componentWillUnmount`. Class based components also have to define a `render` method inside the class, which will be used by React to actually render the component.
 
 4. What is the difference between functional React component and class based React component ?
 
