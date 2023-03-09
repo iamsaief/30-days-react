@@ -198,7 +198,7 @@ ReactDOM.render(<Header />, rootElement);
 
 3. What is class based React component ?
 
-   A class based React component is a type of component that is defined as a regular ES6 class that extends the `Component` class of the React library²³. Class based components are also called stateful or container components because they can track state and lifecycle on a React component. Class based components have access to all the different phases of a React lifecycle method, such as `componentDidMount`, `componentDidUpdate`, or `componentWillUnmount`. Class based components also have to define a `render` method inside the class, which will be used by React to actually render the component.
+   A class based React component is a type of component that is defined as a regular ES6 class that extends the `Component` class of the React library. Class based components are also called stateful or container components because they can track state and lifecycle on a React component. Class based components have access to all the different phases of a React lifecycle method, such as `componentDidMount`, `componentDidUpdate`, or `componentWillUnmount`. Class based components also have to define a `render` method inside the class, which will be used by React to actually render the component.
 
 4. What is the difference between functional React component and class based React component ?
 
@@ -235,7 +235,7 @@ ReactDOM.render(<Header />, rootElement);
 
    Functional components are more popular and recommended than class based components in modern React development. They offer many benefits such as simplicity, readability, testability, and reusability.
 
-8. What is React life cycle ? (not covered yet) ?
+8. What is React life cycle ? (not covered yet)
 9. What is state in React ? (not covered yet)
 
 ## Exercises: Level 2
@@ -251,4 +251,3 @@ Coming ...
 [Back to top ⬆️](#top)
 
 </div>
-````
