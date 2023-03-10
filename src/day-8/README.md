@@ -1,4 +1,4 @@
-    	<div align="center">
+<div align="center">
 
 <h1> Day 8 - 30 Days Of React: States </h1>
 
