@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import Day5 from './day-5';
 import Day6 from './day-6';
 import Day7 from './day-7';
+import Day8 from './day-8';
 
 // The App, or the parent or the container component
 // Functional Component
@@ -12,7 +13,8 @@ const App = () => {
 		<div className="app">
 			{/* <Day5 /> */}
 			{/* <Day6 /> */}
-			<Day7 />
+			{/* <Day7 /> */}
+			<Day8 />
 		</div>
 	);
 };

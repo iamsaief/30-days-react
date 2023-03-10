@@ -8,6 +8,6 @@
 | 5     |       [Props](src/day-5/README.md)        |
 | 6     | [List, Map and Keys](src/day-6/README.md) |
 | 7     |  [Class Components](src/day-7/README.md)  |
-| 8     |                                           |
+| 8     |       [States](src/day-8/README.md)       |
 | 9     |                                           |
 | 10    |                                           |
