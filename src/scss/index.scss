@@ -8,3 +8,9 @@
 	word-spacing: 0.5rem;
 	font-weight: bold;
 }
+
+.spinner-border-sm {
+	--bs-spinner-width: 0.9rem;
+	--bs-spinner-height: 0.9rem;
+	--bs-spinner-border-width: 0.1rem;
+}
