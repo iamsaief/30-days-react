@@ -66,7 +66,7 @@ const BgColorSwitcher = () => {
 			</div>
 			{isLoading ? (
 				<div>
-					<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading colors...{' '}
+					<span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading colors...{' '}
 				</div>
 			) : (
 				seasonSelect

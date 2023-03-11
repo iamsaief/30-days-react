@@ -8,7 +8,7 @@ import '../scss/index.scss';
 import NumberGenerator from './exercises/NumberGenerator';
 import HexColorGenerator from './exercises/HexColorGenerator';
 import WorldPopulation from './exercises/WorldPopulation';
-import { randomUUID } from '../helper';
+import { randomUUID } from '../utils/helper';
 
 const numbers = [1, 2, 3, 4, 5];
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import { allCountries } from '../../data';
-import { dataRestCountries, dataSaief, restCountries } from '../../data-restcountries';
+import { restCountries } from '../../data/data-restcountries';
 
 const CountryCard = (props) => {
 	const {
