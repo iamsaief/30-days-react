@@ -6,7 +6,7 @@
 
 </div>
 
-- [States](#states)
+- [Conditional Rendering](#conditional-rendering)
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
     - [1. What is conditional rendering?](#1-what-is-conditional-rendering)
@@ -18,7 +18,7 @@
   - [Exercises: Level 3](#exercises-level-3)
     - [1. Fetching data takes some amount of time. A user has to wait until the data get loaded. Implement a loading functionality of a data is not fetched yet. You can simulate the delay using setTimeout.](#1-fetching-data-takes-some-amount-of-time-a-user-has-to-wait-until-the-data-get-loaded-implement-a-loading-functionality-of-a-data-is-not-fetched-yet-you-can-simulate-the-delay-using-settimeout)
 
-# States
+# Conditional Rendering
 
 # Exercises
 
