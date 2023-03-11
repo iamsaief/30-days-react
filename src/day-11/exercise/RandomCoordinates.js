@@ -4,6 +4,11 @@ import './RandomCoordinates.scss';
 const maxX = window.innerWidth;
 const maxY = window.innerHeight;
 
+const boxStyles = {
+	top: `${Math.ceil(Math.random() * 500)}px`,
+	left: `${Math.ceil(Math.random() * 500)}px`,
+};
+
 const RandomCoordinates = () => {
 	function handleNewPosition(event) {
 		let x = Math.ceil(Math.random() * maxX);
@@ -23,7 +28,11 @@ const RandomCoordinates = () => {
 	}
 
 	return (
-		<div className="floating-box fw-bold fs-3 text-success-emphasis bg-info py-2 px-4" onMouseEnter={handleNewPosition}>
+		<div
+			className="floating-box fw-bold fs-3 text-success-emphasis bg-info py-2 px-4"
+			onMouseEnter={handleNewPosition}
+			style={boxStyles}
+		>
 			30 of React - Events
 		</div>
 	);
