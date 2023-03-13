@@ -1,5 +1,6 @@
 import React from 'react';
 import Day11 from './day-11';
+import Day12 from './day-12';
 
 import Day5 from './day-5';
 import Day6 from './day-6';
@@ -17,7 +18,8 @@ const App = () => {
 			{/* <Day7 /> */}
 			{/* <Day8 /> */}
 			{/* <Day9 /> */}
-			<Day11 />
+			{/* <Day11 /> */}
+			<Day12 />
 		</div>
 	);
 };

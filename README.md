@@ -10,8 +10,8 @@
 |   8    |             [States](src/day-8/README.md)              |
 |   9    |      [Conditional Rendering](src/day-9/README.md)      |
 |   10   | [React Project Folder Structure](src/day-10/README.md) |
-|   11   |                                                        |
-|   12   |                                                        |
+|   11   |             [Events](src/day-11/README.md)             |
+|   12   |             [Forms](src/day-12/README.md)              |
 |   13   |                                                        |
 |   14   |                                                        |
 |   15   |                                                        |
