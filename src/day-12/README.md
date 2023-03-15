@@ -10,7 +10,7 @@
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
     - [1. What is the importance of form?](#1-what-is-the-importance-of-form)
-    - [2. How many input types do you know? ### 3. Mention at least four attributes of an input element](#2-how-many-input-types-do-you-know--3-mention-at-least-four-attributes-of-an-input-element)
+    - [2. How many input types do you know? | 3. Mention at least four attributes of an input element](#2-how-many-input-types-do-you-know--3-mention-at-least-four-attributes-of-an-input-element)
     - [4. What is the importance of htmlFor?](#4-what-is-the-importance-of-htmlfor)
     - [5. Write an input type which is not given in the example if there is?](#5-write-an-input-type-which-is-not-given-in-the-example-if-there-is)
     - [6. What is a controlled input? | 7. What do you need to write a controlled input?](#6-what-is-a-controlled-input--7-what-do-you-need-to-write-a-controlled-input)
@@ -20,7 +20,7 @@
     - [11. What is the purpose of writing e.preventDefault() inside the submit handler method?](#11-what-is-the-purpose-of-writing-epreventdefault-inside-the-submit-handler-method)
     - [12. How do you bind data in React? The first input field example is data binding in React.](#12-how-do-you-bind-data-in-react-the-first-input-field-example-is-data-binding-in-react)
     - [13. What is validation?](#13-what-is-validation)
-    - [14. What is the event type you use to listen when an input changes? || 15. What are event types do you use to validate an input?](#14-what-is-the-event-type-you-use-to-listen-when-an-input-changes--15-what-are-event-types-do-you-use-to-validate-an-input)
+    - [14. What is the event type you use to listen when an input changes? | 15. What are event types do you use to validate an input?](#14-what-is-the-event-type-you-use-to-listen-when-an-input-changes--15-what-are-event-types-do-you-use-to-validate-an-input)
   - [Exercises: Level 2](#exercises-level-2)
     - [1. Validate the form given above (a gif image or a video will be provided later). First try to validate without using any library then try it with validator.js.](#1-validate-the-form-given-above-a-gif-image-or-a-video-will-be-provided-later-first-try-to-validate-without-using-any-library-then-try-it-with-validatorjs)
 
@@ -32,11 +32,11 @@
 
 ### 1. What is the importance of form?
 
-Form is used to collect data from a user. Collection of html elements that allow users to input data on a website, such as text fields, email, password, telephone, checkboxes, radio buttons, etc.
+Form is used to collect data from a user. Its a collection of html elements that allow users to input data on a website, such as text fields, email, password, telephone, checkboxes, radio buttons, etc.
 Form is important because it enables users to interact with the website and provide information, requests, feedback, or orders.
 Form is also important for web accessibility, which means making websites usable by people with disabilities. Web accessibility ensures that everyone can access the web content and services without barriers.
 
-### 2. How many input types do you know? ### 3. Mention at least four attributes of an input element
+### 2. How many input types do you know? | 3. Mention at least four attributes of an input element
 
 Here is an example list of some frequently used input types and attributes:
 
@@ -50,7 +50,12 @@ Here is an example list of some frequently used input types and attributes:
 | `type="radio"`    | A radio button that can be selected or deselected.                                  | same as checkbox type, plus `name` must be the same for all radio buttons in a group |
 | `type="submit"`   | A button that submits the form data to a server.                                    | `name` and `value`.                                                                  |
 | `<label>`         | An element that defines a label for an input element.                               | for must match the `id` of the input element.                                        |
-|                   | Learn more, [`input` and `attributes` - MDN][1]                                     |                                                                                      |
+
+<div align="center">
+
+📚 Learn more, [`input` and `attributes` - MDN][1]
+
+</div>
 
 <!-- Embedded Links -->
 
@@ -68,7 +73,7 @@ This can make your web page easier to use and understand for everyone. **improve
 <input type="week" name="week" />
 ```
 
-Learn more, [`input` and `attributes` - MDN][1]
+📚 Learn more, [`input` types - MDN][1]
 
 ### 6. What is a controlled input? | 7. What do you need to write a controlled input?
 
@@ -101,7 +106,7 @@ The purpose of writing `e.preventDefault()` inside the submit handler method is 
 
 Applying a state variable as an input's value and updating this state on every new input using `onChange` event listener.
 
-Data binding in React is the process of connecting the view element or user interface, with the data which populates it. In React, data binding is achieved through state and props. The state is the internal data of a component that can change over time, while props are external data that are passed down to a component from its parent. When the state or props change, React automatically re-renders the component, updating the UI to reflect the new data.
+Data binding in React is the process of connecting the view element or user interface, with the data which populates it. In React, **data binding is achieved through state and props**. The state is the internal data of a component that can change over time, while props are external data that are passed down to a component from its parent. When the state or props change, React automatically re-renders the component, updating the UI to reflect the new data.
 
 There are different types of data binding in React, such as `one-way` and `two-way` data binding. One-way data binding means that the **input updates when the state changes**, but the **state doesn’t update when the input is edited**. Two-way data binding means that **both the input and the state update each other when they change**.
 
@@ -130,11 +135,16 @@ export default DataBinding;
 
 The process of checking whether user input is in the correct format and within the constraints set by the application.
 
-### 14. What is the event type you use to listen when an input changes? || 15. What are event types do you use to validate an input?
+### 14. What is the event type you use to listen when an input changes? | 15. What are event types do you use to validate an input?
 
 ## Exercises: Level 2
 
 ### 1. Validate the form given above (a gif image or a video will be provided later). First try to validate without using any library then try it with [validator.js](https://www.npmjs.com/package/validator).
+
+- Without library
+  Solution : `src/day-12/exercise/FormValidation.js`
+- With library
+  Solution : coming soon ..
 
 <div align="right">
 
