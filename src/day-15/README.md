@@ -136,59 +136,35 @@ In this example, the `classNames` function is used to generate a className prop 
 
 ### 10. What is the purpose validator package?
 
-The `validator` package is a popular package in Node.js for data validation. It simplifies data validation in JavaScript and can work in both the browser and Node.js. Some of the advantages of `validator` are:
+The `validator` package is a JavaScript library for string validation and sanitization. You can use this package in your React application to validate user input, such as email addresses, URLs, and more. Here is an example of how to use the `validator` package in a React component:
 
-- Ability to work in both the browser and Node.js
-- Simplifies data validation in JavaScript
-- Can validate strings, numbers, and dates
-- Can validate email addresses, URLs, and IP addresses
-- Can validate credit card numbers and phone numbers
-
-The `validator` package gives us a `Validator` constructor function with the following signature:
-
-```javascript
-let validation = new Validator(data, rules [, customErrorMessages]);
-```
-
-In the code above, the `Validator` constructor has three arguments: `data`, an object that contains the data you want to validate; `rules`, an object that contains the validation rules; and `customErrorMessages`, an optional object that contains custom error messages.
-
-Here is an example of how to use the `validator` package in a React application:
-
-```javascript
+```jsx
 import React, { useState } from 'react';
-import Validator from 'validator';
+import validator from 'validator';
 
-function Form() {
+function MyForm() {
 	const [email, setEmail] = useState('');
-	const [password, setPassword] = useState('');
+	const [isValidEmail, setIsValidEmail] = useState(false);
 
-	const handleSubmit = (event) => {
-		event.preventDefault();
-
-		if (Validator.isEmail(email) && Validator.isLength(password, { min: 8 })) {
-			console.log('Valid form data');
-		} else {
-			console.log('Invalid form data');
-		}
+	const handleEmailChange = (event) => {
+		const newEmail = event.target.value;
+		setEmail(newEmail);
+		setIsValidEmail(validator.isEmail(newEmail));
 	};
 
 	return (
-		<form onSubmit={handleSubmit}>
+		<form>
 			<label>
 				Email:
-				<input type="email" value={email} onChange={(event) => setEmail(event.target.value)} />
+				<input type="email" value={email} onChange={handleEmailChange} />
 			</label>
-			<label>
-				Password:
-				<input type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
-			</label>
-			<button type="submit">Submit</button>
+			{isValidEmail ? <p>Email is valid</p> : <p>Email is not valid</p>}
 		</form>
 	);
 }
 ```
 
-In this example, the `validator` package is used to validate form data in a React application. The `isEmail` method is used to validate the email address, and the `isLength` method is used to validate the password length.
+In this example, the `validator.isEmail()` function is used to validate the email address entered by the user. The `isValidEmail` state variable is used to keep track of whether the email address is valid or not. The `handleEmailChange()` function is called whenever the user types in the email input field, and it updates the `email` and `isValidEmail` state variables accordingly. The `isValidEmail` variable is used to conditionally render a message to the user indicating whether the email address is valid or not.
 
 ## Exercises: Level 2
 
