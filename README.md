@@ -13,8 +13,9 @@
 |   11   | [Events][11]                         |
 |   12   | [Forms][12]                          |
 |   13   | [Uncontrolled Component][13]         |
-|   14   | [][14]                               |
-|   15   | [][15]                               |
+|   14   | [Component Life Cycles][14]          |
+|   15   | [Third Party Packages][15]           |
+|   -    | -                                    |
 
 </div>
 
