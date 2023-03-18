@@ -15,6 +15,7 @@
 |   13   | [Uncontrolled Component][13]         |
 |   14   | [Component Life Cycles][14]          |
 |   15   | [Third Party Packages][15]           |
+|   16   | [Higher Order Components][16]        |
 |   -    | -                                    |
 
 </div>
@@ -32,3 +33,18 @@
 [13]: src/day-13/README.md
 [14]: src/day-14/README.md
 [15]: src/day-15/README.md
+[16]: src/day-16/README.md
+[17]: src/day-17/README.md
+[18]: src/day-18/README.md
+[19]: src/day-19/README.md
+[20]: src/day-20/README.md
+[21]: src/day-21/README.md
+[22]: src/day-22/README.md
+[23]: src/day-23/README.md
+[24]: src/day-24/README.md
+[25]: src/day-25/README.md
+[26]: src/day-26/README.md
+[27]: src/day-27/README.md
+[28]: src/day-28/README.md
+[29]: src/day-29/README.md
+[20]: src/day-20/README.md

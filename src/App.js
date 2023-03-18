@@ -8,6 +8,7 @@ import Day11 from './day-11';
 import Day12 from './day-12';
 import Day13 from './day-13';
 import Day15 from './day-15';
+import Day16 from './day-16';
 
 // The App, or the parent or the container component
 // Functional Component
@@ -22,7 +23,8 @@ const App = () => {
 			{/* <Day11 /> */}
 			{/* <Day12 /> */}
 			{/* <Day13 /> */}
-			<Day15 />
+			{/* <Day15 /> */}
+			<Day16 />
 		</div>
 	);
 };
