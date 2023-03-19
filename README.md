@@ -16,6 +16,7 @@
 |   14   | [Component Life Cycles][14]          |
 |   15   | [Third Party Packages][15]           |
 |   16   | [Higher Order Components][16]        |
+|   17   | [React Router][17]                   |
 |   -    | -                                    |
 
 </div>
