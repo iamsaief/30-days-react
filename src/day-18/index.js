@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { randomUUID, isFalsyObj } from '../utils/helper';
+import CatsParadise from './exercise/CatsParadise';
 
 const Country = ({ country }) => {
 	const { name, capital, flags, languages, population, currencies } = country;
@@ -69,7 +70,6 @@ const Day18 = () => {
 		// 	.catch((error) => {
 		// 		console.log(error);
 		// 	});
-
 		/**
 		 * * Fetch + async-await
 		 */
@@ -78,14 +78,12 @@ const Day18 = () => {
 		// 	try {
 		// 		const response = await fetch(url);
 		// 		const data = await response.json();
-
 		// 		setFetchedData(data);
 		// 	} catch (error) {
 		// 		console.log(error);
 		// 	}
 		// };
 		// fetchCountryData();
-
 		/**
 		 * * Axios + then chaining
 		 */
@@ -98,29 +96,26 @@ const Day18 = () => {
 		// 	.catch((error) => {
 		// 		console.log(error);
 		// 	});
-
 		/**
 		 * * Axios + async-await
 		 */
-		const fetchCountryData = async () => {
-			const url = 'https://restcountries.com/v3.1/all';
-			try {
-				const response = await axios.get(url);
-				const data = await response.data;
-
-				setFetchedData(data);
-			} catch (error) {
-				console.log(error);
-			}
-		};
-		fetchCountryData();
-
-		console.log(fetchedData);
+		// const fetchCountryData = async () => {
+		// 	const url = 'https://restcountries.com/v3.1/all';
+		// 	try {
+		// 		const response = await axios.get(url);
+		// 		const data = await response.data;
+		// 		setFetchedData(data);
+		// 	} catch (error) {
+		// 		console.log(error);
+		// 	}
+		// };
+		// fetchCountryData();
+		// console.log(fetchedData);
 	}, []);
 
 	return (
 		<div className="container">
-			<h1>Day 18 : Calling API</h1>
+			{/* <h1>Day 18 : Calling API</h1>
 			<div>
 				<p>
 					There are <strong>{fetchedData.length > 0 ? fetchedData.length : <Loading />}</strong> countries in the api
@@ -132,7 +127,9 @@ const Day18 = () => {
 						<Loading />
 					)}
 				</div>
-			</div>
+			</div> */}
+
+			<CatsParadise />
 		</div>
 	);
 };
