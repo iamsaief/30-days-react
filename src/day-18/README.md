@@ -87,7 +87,7 @@ In general, if you're working on a small project or just need to make a few simp
 
 ### 3. Arrange countries in ascending order based on the number of cat breeds they have?
 
-Solution: [check `CatsParadise.js`](src/day-18/exercise/CatsParadise.js)
+Solution: [check `CatsParadise.js`](exercise/CatsParadise.js)
 
 <div align="right">
 
